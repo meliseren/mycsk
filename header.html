@@ -1,0 +1,39 @@
+<!-- Header Start -->
+<header>
+    <div class="logo">
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="gida"></a>
+    </div>
+    <ul class="navbar">
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+        <li><a href="categories.html">Kategoriler</a></li>
+        <li><a href="gallery.html">Galeri</a></li>
+        <li><a href="contact.html">İletişim</a></li>
+    </ul>
+    <div class="hamburger-menu">
+        <a href="#"><i class="fa fa-bars fa-2xl" aria-hidden="true"></i></a>
+        <div class="popup-menu">
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="categories.html">Kategoriler</a></li>
+                <li><a href="gallery.html">Galeri</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!-- Header End -->
+<!-- Whatsapp Start -->
+    <div id="whatsapp">
+        <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+    </div>
+ <!-- Whatsapp End -->
+
+ <script>
+        $(document).ready(function () {
+        $(".hamburger-menu a").click(function () {
+            $(".popup-menu").toggle();
+        });
+    });
+ </script>
